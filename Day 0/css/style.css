@@ -1,0 +1,13 @@
+h1{
+    text-decoration: underline green; 
+}
+a{
+    font-size: 40px;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: overline yellow;
+    text-shadow: 3px 4px 5px blue; 
+}
