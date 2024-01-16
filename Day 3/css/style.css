@@ -4,19 +4,28 @@ body{
 h1{
   text-align: center;
 }
-p{
+.paragraph{
    box-shadow: 0px 0px 30px;
    background-color: blue;
    font-family: 'Courier New', Courier, monospace;
-   font-size: 30px;box-shadow: ;
+   font-size: 30px;
    color:red;
    font-weight: 600;
 }
+.center{
+   text-align: center;
+}
+img{
+   width: 400px;
 
+}
 img:hover{
     box-shadow: 20px 20px 50px;
 }
-
+a{
+   color: black;
+   text-decoration: none;
+}
 a:hover{
    text-decoration: wavy ;
    text-shadow: 20px 10px 15px;
@@ -28,21 +37,14 @@ video{
    border-color: black;
    width: 500px;
 }
-img{
+.right{
    text-align: right;
 }
 .parent{
    width: 200px;
    height: 200px;
    background-color: blue;
-   
    padding: 10px 15px 50px 20px ;
-
-   padding-top: 30px;
-   padding-right: 15px;
-   padding-bottom: 50px;
-   padding-left: 20px;
-
    border: 10px solid black;
 }
 .child{
@@ -50,7 +52,4 @@ img{
    height: 100px;
    background-color: brown;
    border-radius: 50%;
-}
-a{
-   color: black;
 }
