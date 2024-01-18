@@ -1,0 +1,60 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: white;
+    border: 30px solid aqua;
+    border-radius: 50px;
+    border: 10px solid aqua;
+
+}
+.imege{
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+  
+
+    
+}
+.parent{
+    margin: 20px;
+    margin: 20px;
+    border: 1px solid aqua;
+}
+
+
+.header-1{
+   margin: 20px;
+   padding: 5px;
+   background-color: green;
+   color: white;
+   width: 330px;
+
+}
+.header-2{
+    margin: 10px;
+    padding: 2px;
+    font-size: 40px;
+
+}
+.paragraph{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 900px;
+    font-size: 30px;
+    margin: 20px;
+}
+.chaild-link{
+   color: black;
+   text-decoration: none;
+   font-size: 20px;
+   border:  1px solid brown;
+   border-radius: 5px;
+   padding: 2px 20px;
+   margin: 70px;
+
+    
+}

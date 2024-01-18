@@ -1,0 +1,25 @@
+.conteiner{
+    width: 80%;
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+tr,
+td,
+th{
+    border: 1px solid;
+    padding: 10px;
+}
+th{
+    text-transform: uppercase;
+    background: aquamarine;
+    color: blue;
+    text-align: left;
+}
+tbody tr:hover{
+    background-color: gray;
+
+}

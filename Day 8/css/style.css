@@ -1,0 +1,34 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.selection-table{
+    background-color: blueviolet;
+    margin: 250px;
+    padding: 50px 0;
+    border-radius: 50px;
+}
+h1{
+    text-align: center; 
+    margin-bottom: 50px;
+    color: white;
+    box-sizing: 600px;
+}
+table{
+    margin:auto;
+    background-color: blue;
+    box-sizing: 300px;
+}  
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}  
+th, td{
+    padding: 10px 25px;
+    background-color: aqua;
+}
+th{
+    background-color: aqua;
+}

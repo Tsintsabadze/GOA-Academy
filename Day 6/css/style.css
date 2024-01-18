@@ -1,0 +1,73 @@
+body{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    color: red;
+}
+.me{
+    height: 70%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    left: 20px;
+    border: 1px solid #6e6e6e;
+    color: purple;
+    overflow-x: hidden;
+    border-radius: 20px;
+}
+.me-container{
+    max-width: 300px;
+    margin: auto;
+    padding-top: 2rem;
+}
+.pre-present-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pre-present-me h2{
+    font-size: 40px;
+}
+.pre-present-me p{
+    font-size: 17px;
+    line-height: 26px;
+}
+.top-project-img{
+    position: relative;
+}
+.img-me{
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.hide-desktop{
+    display: none;
+}
+
+.icon{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon a{
+    margin-right: 10px;
+}
+.icon a:last-child{
+    margin-right: 0px;
+}
+.icon ion-icon{
+    color: blue;
+    font-size: 22px;
+}
+.button{
+    color: blue;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+    
