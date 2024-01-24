@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+section{
+    margin: 0 20px;
+}
+.header{
+    text-align: center;
+    color: orangered;
+    text-decoration:underline red wavy 2px;  
+}
+.image{
+    margin-top: 15px;
+}
+.img2{
+    margin-left: 50px;
+}
+.paragraph{
+   margin: 15px 0;
+}
+a{
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+    color: brown;
+    border: 1px solid brown;
+
+    /* padding: 15px; */
+    /*მოქმედებს ყველა მხრიდან: ზევით ქვევით მარჯვინ მარცხნივ*/
+    padding: 5px 45px;
+    /* პირველი მნიშვნელობა არის ვერტიკალური:ზევით ქვევით,მეორე მნიშვნელობა:მარჯნივ მარცხნივ*/
+    /* padding: 5px 25px 55px 75px; */
+    /* ეს კონკრეტული სტილი მუშაობს საათის ისრის მიმართულებით:5-top, 25-right, 55-bottom, 75-left */
+    /* padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 55px;
+    padding-left: 75px; */
+}

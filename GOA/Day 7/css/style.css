@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{  
+    background: linear-gradient(270deg, #F1AD41, #5D2AB3);
+}
+/* section{
+    display: flex;
+    justify-content: space-around;
+} */
+.card{
+    margin: 20px;
+    border: 2px solid brown;
+    padding: 10px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.card-header{
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.card-p{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.parent-link{
+    margin: 20px 0;
+}
+.parent-link a{
+    border: 1px solid green;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: green;
+    color:white;
+}
+.parent-link a:hover{
+    background-color: white;
+    color: green;
+}

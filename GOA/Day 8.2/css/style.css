@@ -1,0 +1,38 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.selection-table{
+    background-color: green;
+    margin: 250px;
+    padding: 5px;
+    width: 570px;
+
+}
+h1{
+    text-align: center; 
+    color: white;
+    width: 300px;
+    margin: auto;
+
+}
+table{
+    margin:20px;
+    background-color: blue;
+    text-align: center;
+}  
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}  
+th, td{
+    padding: 10px 25px;
+    background-color: olivedrab;
+    background-color: yellowgreen;
+
+}
+th{
+    background-color: aqua;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-card{
+    background-color: blueviolet;
+    padding: 50px 0;
+
+    display: flex;
+}
+.card{
+    width: 370px;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px yellow;
+}
+.card:hover{
+    box-shadow: 3px 3px 10px orange;
+
+}
+.card img{
+    width: 100%;
+
+}
+.card h3{
+    background-color: lightgreen;
+    padding: 2px 5px;
+    color: white;
+
+}
+.card h1{
+    font-size: 40px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.card p{
+    margin-top: 10px;
+}
+.link{
+    margin: 10px 0;
+}
+.link a{
+    padding: 3px 25px;
+    border: 3px solid black;
+    color: black;
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin: 10px;
+    
+}
+a:hover{
+    color: orange;
+    
+}
+.section-list{
+    margin-left: 100px;
+    padding: 60px;
+  
+}
+ul{
+    list-style:decimal; 
+    list-style-image: url(../img/boy.png);
+    width: 20px;
+} 
+ul li{
+    margin-top: 5px;
+}
