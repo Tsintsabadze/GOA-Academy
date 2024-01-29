@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    background: linear-gradient(#000000b0,#000000ad),url(../img/418931088_914456030345173_498477435983854131_n.jpg) center no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.header-size{
+    max-width: 1050px;
+    margin: auto;
+}
+.navbar{
+    padding-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    max-width: 1050px;
+    margin: auto;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items li a{
+    color: white;
+    font-size: 20px;
+    margin: 8px;
+}
+.get{
+    padding: 10px 10px;
+    background-color: #eb2626;
+    border-radius: 20px;
+}
+.hero{
+    margin-top: 70px;
+}
+.hero h3{
+    color:white;
+}
+.hero h1{
+    color: #fff;
+    font-size: 68px;
+    margin-top: 10px;
+}
+.hero p{
+    margin-top: 15px;
+    color: #ffffffdf;
+    width: 500px;
+    line-height: 25px;
+}
+.button{
+    margin-top: 30px;
+   
+    
+}
+.btn{
+    color: #fff;
+    padding: 10px 35px;
+    background-color: #eb2626; 
+}
+a:hover{
+    box-shadow:blue;
+}
+.section-pizza{
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 300px;
+    background: url(../img/417446485_388883320354996_9030878510469957788_n.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 30px;
+
+    padding: 90px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.btn-pizza{
+    font-size: 20px;
+}
+.section-pizza-2{
+    align-items: flex-end;
+    justify-content: flex-end;
+}

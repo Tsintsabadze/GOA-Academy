@@ -6,12 +6,12 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
-    background-color:darkolivegreen;
+    background-color:white;
     margin: 20px;
    
 }
 header{
-    display: flex;                 
+    display: flex;
     justify-content:space-between;
     padding: 20px;
     margin: 20px;
@@ -26,7 +26,7 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-/* nav a{
+nav a{
     text-decoration:none ;
     font-size: 20px;
     width: 70%;
@@ -37,7 +37,7 @@ nav{
     margin: 10px;
     padding: 20px;
     
-} */
+}
 a:hover{
     background-color: orange;
     border-radius: 20px;
@@ -100,5 +100,8 @@ img{
     padding: 10px;
     margin: 100px;
     border-radius: 40px;
+    text-align: right;
+
+    
     
 }
